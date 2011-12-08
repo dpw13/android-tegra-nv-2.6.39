@@ -172,7 +172,7 @@ static struct attribute_group smba1002_camera_attr_group = {
 };
 
 /* ----- Initialization/removal -------------------------------------------- */
-static int __init smba1002_camera_probe(struct platform_device *pdev)
+static int smba1002_camera_probe(struct platform_device *pdev)
 {
 	/* default-off */
 	const int default_state = 0;
